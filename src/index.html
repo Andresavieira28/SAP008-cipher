@@ -1,14 +1,35 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
-  </body>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>MENSAGEM CRIPTOGRAFADA COM CIFRA DE CÉSAR</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div id="root">
+   <h1> Safe secret </h1>
+   <p></p>
+<form> DESLOCAMENTO
+   <input type="number" id="deslocamento" min="0" max="26">
+</form>
+
+<P> Quer enviar uma mensagem para o amigo codificada?</P>
+<form id= "cipherone">
+   <textarea id="codificar" rows="5" cols="100" placeholder="Digite sua mensagem" name="message.encode"></textarea>
+</form>
+<br>
+<P id="resencode"> </P>
+<button id="button-encode">CODIFICAR</button>
+
+<P> Deseja decodificar a mensagem do seu amigo?</P>
+<form id= "ciphertwo">
+   <textarea id="decodificar" rows="5" cols="100" placeholder="Digite sua mensagem" name="message.decode"></textarea>
+</form>
+<P> 
+<P id = "resdecode"> </P>
+<button id="button-decode">DECODIFICAR</button>
+</P>
+</div>
+<script src="index.js" type="module"></script> 
+</body>
 </html>

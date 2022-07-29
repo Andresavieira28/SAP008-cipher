@@ -1,0 +1,43 @@
+html, body {
+background-image: url(imagens/img\ cipher.png);
+color: white;
+font: normal 15pt monospace ;
+height: 100%;
+width: 100%;
+text-align: center; 
+}
+h1{
+    color: yellow;
+    align-items: center;
+}
+button{
+    background-color: rgb(91, 136, 231);
+    color: yellow;
+    width: 110px;
+    height: 40px;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: small;
+    border-color: rgb(209, 209, 211);
+    border-radius: 10px;
+}
+button:hover {
+    transform: scale(0.9);
+}
+form input{
+    background-color: rgb(253, 253, 122);
+    outline: unset;
+}
+form textarea{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    outline: unset;
+    background-color: rgb(253, 253, 122);
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid rgb(23, 20, 199);
+}
+
+
+
+
+
