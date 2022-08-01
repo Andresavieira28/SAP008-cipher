@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>MENSAGEM CRIPTOGRAFADA COM CIFRA DE CÉSAR</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div id="root">
+   <h1> Safe secret </h1>
+   <p></p>
+<form> DESLOCAMENTO
+   <input type="number" id="deslocamento" min="0" max="60">
+</form>
+
+<p> Quer enviar uma mensagem para o amigo codificada?</p>
+<form id= "cipherone">
+   <textarea id="codificar" rows="5" cols="100" placeholder="Digite sua mensagem" name="message.encode"></textarea>
+</form>
+<br>
+<p id="resencode"> </p>
+<button id="button-encode">CODIFICAR</button>
+
+<p> Deseja decodificar a mensagem do seu amigo?</p>
+<form id= "ciphertwo">
+   <textarea id="decodificar" rows="5" cols="100" placeholder="Digite sua mensagem" name="message.decode"></textarea>
+</form>
+<p> 
+<p id = "resdecode"> </p>
+<button id="button-decode">DECODIFICAR</button>
+</p>
+</div>
+<script src="index.js" type="module"></script> 
+</body>
+</html>
