@@ -23,6 +23,10 @@ body{
     background-color: rgb(253, 253, 122);
     border-color: beige;
 }
+.textPlace{
+    text-align: center;
+    padding: 5% 0% 0% 0%;
+}
 button{
     background-color: #001d3d;
     color: #ffc300;
