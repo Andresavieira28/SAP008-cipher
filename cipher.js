@@ -1,5 +1,7 @@
 const cipher = {encode,decode};
 
+const btnRefresh = document.querySelector('#refresh');
+
 function encode(offset,text){
   if(typeof parseInt(offset) !== 'number' || typeof text != 'string') {
     throw TypeError()
@@ -46,4 +48,10 @@ function decode(offset,text) {
     
   } return msgdec;
 }
+
+btnRefresh.addEventListener('click',
+function refresh(){
+  window.location.reload();
+})
+
 export default cipher;

@@ -29,6 +29,7 @@ body{
 }
 button{
     background-color: #001d3d;
+    border-color: #ffc300;
     color: #ffc300;
     width: 110px;
     height: 40px;
@@ -56,6 +57,17 @@ form textarea{
     text-align: center;
     height: 80px;
     width: 600px;
+}
+
+.refresh{
+    background-color: #001d3d;
+    border-color: #ffc300;
+    color: #ffc300;
+    width: 70px;
+    height: 25px;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
 }
 
 
